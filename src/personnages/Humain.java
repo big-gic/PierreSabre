@@ -11,7 +11,11 @@ public class Humain {
 		this.argent = argent;
 	}
 	
-	private void parler(String texte) {
+	public int getArgent() {
+		return argent;
+	}
+	
+	public void parler(String texte) {
 		System.out.println("("+nom + ") - " + texte);
 	}
 	
